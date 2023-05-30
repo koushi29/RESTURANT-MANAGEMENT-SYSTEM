@@ -1,0 +1,371 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+
+    /* Style the header with a grey background and some padding */
+.header {
+  overflow: hidden;
+  background-color:rgb(0, 0, 0);
+  padding: 20px 10px;
+  display: inline-block;  
+  
+}
+.container
+{
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+/* Style the header links */
+.header a {
+  
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 25px;
+  border-radius: 4px;
+  display: inline-block;
+
+  
+}
+
+/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+.header a.logo {
+  font-size: 35px;
+  font-weight:bold;
+  font-family: 'Dancing Script', cursive;
+}
+
+/* Change the background color on mouse-over */
+.header a:hover {
+  background-color: black;
+  color: whitesmoke;
+}
+
+/* Style the active/current link*/
+.header a.active {
+  background-color: rgb(220, 64, 64);
+  color: black;
+}
+
+/* Float the link section to the right */
+.header-right {
+  float: right;
+  display: flex;
+ margin-top: -50px;
+
+  gap: 2rem;
+ margin-left:900px;
+ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+ 
+}
+
+/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: flex;
+    text-align: left;
+   
+  }
+  .header-right {
+
+
+  }
+}
+
+
+body::-webkit-scrollbar{
+    display: none;
+   
+  }
+  .container img
+  {
+    width: 1280px;
+    height:auto;
+  }
+  .categires img
+  {
+    width: 300px;
+    height: 200px;
+    border-radius: 5%;
+
+    
+  
+  }
+  .categires
+  {
+    display: flex;
+    gap: 0.5rem;
+    margin-left: 29px;
+    margin-top: 200px;
+    flex-wrap: wrap;
+  }
+
+
+  .categires {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 300px;
+  height: 200px;
+  border-radius: 5%;
+}
+
+.overlay {
+  position: absolute;
+  background-color: transparent;
+  overflow: hidden;
+  width: 0;
+  height: 200px;
+  transition: .5s ease;
+}
+
+.categires:hover .overlay {
+  width: 300px;
+  border-radius: 5%;
+}
+
+.text {
+  color: white;
+  font-size: 30px;
+  font-family: 'Dancing Script', cursive; 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  
+}
+
+.categires:nth-child(1)
+{
+  position: relative;
+
+  left:10px ;
+  
+
+
+
+}
+.categires:nth-child(2)
+{
+  position:relative;
+  left:300px;
+ 
+
+}
+.categires:nth-child(3)
+{
+  position:relative;
+  left:600px;
+
+}
+.categires:nth-child(4)
+{
+  position:relative;
+  left:-435px;
+  top: 260px;
+  
+
+}
+.categires:nth-child(5)
+{
+  position: relative;
+   left:-145px;
+  top:260px;
+  
+}
+.categires:nth-child(6)
+{
+  position: relative;
+   left:155px;
+  top:260px;
+}
+.categires:nth-child(7)
+{
+  position: absolute;
+   left:20px;
+  top:1470px;
+}
+.categires:nth-child(8)
+{
+  position: absolute;
+   left:460px;
+  top:1470px;
+}
+
+.categires:nth-child(9)
+{
+  position: absolute;
+   left:910px;
+  top:1470px;
+}
+
+
+
+.x
+{
+  display: flex;
+flex-flow: row;
+margin: 0;
+margin-right:44px;
+
+
+
+
+}
+
+/* .hole
+{
+  width: 800px;
+  background-color: green;
+ 
+
+} */
+body
+{
+ margin-right: 1000px;
+
+
+}
+</style>
+
+</head>
+<body style="background: black;">
+    <div class="container">
+    <div class="header">
+        <a href="#default" class="logo">&nbsp;&nbsp;DHABHA</a>
+        <div class="header-right">
+          <a class="active" href="/trail new-1.html ">Home</a>
+          <a class="active" href="contactus.html">Contact</a>
+          <a class="active" href="aboutus.html">About</a>
+        </div>
+      </div>
+      <img src="titlepic.jpeg">
+    </div>
+  <div class="hole">
+<div class="x">
+-----------------------
+    <div class="categires">
+
+    <img src="srt.jpg" alt="Avatar" class="image">
+    <div class="overlay">
+      <a href="/veg starter page.html"><div class="text">Veg Starter</div></a>
+    </div>
+>
+     
+    </div>
+--------------------
+    <div class="categires">
+
+      <img src="non veg str.jpg" alt="Avatar" class="image">
+      <div class="overlay">
+        <a href="/non-veg starter.html"><div class="text">Non-Veg Starter</div></a>
+      </div>
+  >
+       
+      </div>
+
+-------------------
+      <div class="categires">
+
+        <img src="best biryani in pune lead.jpg" alt="Avatar" class="image">
+        <div class="overlay">
+          <a href="/biryani.html"><div class="text">Biryani</div></a>
+        </div>
+    >
+         
+        </div>
+
+-----------------------
+<div class="categires">
+
+  <img src="271krdvo_garlic-naan_625x300_16_February_21.jpg" alt="Avatar" class="image">
+  <div class="overlay">
+    <a href="/breads.html"><div class="text">Breads</div></a>
+  </div>
+>
+   
+  </div>
+    
+-----------------------------
+<div class="categires">
+
+  <img src="20220708083148-paneer-20butter-20masala.jpg" alt="Avatar" class="image">
+  <div class="overlay">
+    <a href="/veg curries.html"><div class="text">Veg Curries</div></a>
+  </div>
+>
+   
+  </div>
+------------------------------
+
+<div class="categires">
+
+  <img src="2022-05-05-tcu-s3-rx018-heart-sing-junda-khoo-curry-chicken-l.jpg" alt="Avatar" class="image">
+  <div class="overlay">
+    <a href="/non veg curries.html"><div class="text">Non-Veg Curry</div></a>
+  </div>
+>
+   
+  </div>
+
+-------------------
+
+<div class="categires">
+
+  <img src="bevages.jpg" alt="Avatar" class="image">
+  <div class="overlay">
+    <a href="/bevarages.html"><div class="text">Bevarages</div></a>
+  </div>
+>
+   
+  </div>
+
+
+-----------------------
+
+<div class="categires">
+
+  <img src="ice cream.jpg" alt="Avatar" class="image">
+  <div class="overlay">
+    <a href="/ice cream.html"><div class="text">Ice-Cream</div></a>
+  </div>
+>
+
+   
+  </div>
+-----------------------
+<div class="categires">
+
+  <img src="noodles.jpg" alt="Avatar" class="image">
+  <div class="overlay">
+    <a href="/chinese.html"><div class="text">Chinese</div></a>
+  </div>
+>
+
+   
+  </div>
+  </div>
+  </div>
+</body>
+</html>

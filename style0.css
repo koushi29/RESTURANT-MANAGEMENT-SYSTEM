@@ -1,0 +1,407 @@
+body {
+  -youbkit-touch-callout: none;
+  -youbkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background: #ffffff;
+}
+
+.headerdiv {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  width: 340px;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+}
+
+.contentdiv {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  width: 340px;
+  height: 645px;
+  background: #3A81F1;
+  box-shadow: 0 10px 40px rgba(58, 129, 241, 0.5);
+  border-radius: 10px;
+}
+
+.inputdiv {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  width: 310px;
+  height: 300px;
+  background: #ffffff;
+  border-radius: 13px;
+}
+
+.outputdiv {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  width: 310px;
+  height: 270px;
+  background: #ffffff;
+  border-radius: 13px;
+}
+
+.footerdiv {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  width: 340px;
+  height: 220px;
+  background: none;
+}
+
+.heading {
+  color: #000000;
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: left;
+  padding: 12px 0px;
+}
+
+.shareicon {
+  transform: translate(0px, 0px);
+}
+
+.center {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo {
+  color: #000000;
+  font-family: "Poppins", serif;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  padding: 12px 0px;
+}
+
+.slogan {
+  color: #000000;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  transform: translate(0px, -22px);
+}
+
+.upilogo {
+  transform: translate(0px, 6px);
+}
+
+.tuhin {
+  color: #000000;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  transform: translate(0px, -5px);
+  padding-top: 10px;
+}
+
+.logowhite {
+  color: #ffffff;
+  font-family: "Poppins", serif;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  padding: 12px 0px;
+}
+
+.errtxt {
+  color: #ffffff;
+  font-family: Poppins;
+  font-size: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.tpf {
+  color: #000000;
+  font-family: "Poppins", serif;
+  font-size: 10px;
+  font-weight: bold;
+  text-align: center;
+  transform: translate(0px, -20px);
+}
+
+.headingw {
+  color: #ffffff;
+  font-family: Poppins;
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  padding: 22px 20px;
+}
+
+.inputbox {
+  font-size: 18px;
+  border-width: 1px;
+  border-color: #000000;
+  background-color: #f0f0f0;
+  color: #000000;
+  border-style: none;
+  padding: 0px 13px;
+  font-family: Poppins;
+  font-weight: bold;
+  text-align: center;
+  font-size: 18px;
+  width: 240px;
+  height: 40px;
+  border-radius: 15px;
+}
+
+.inputbox:focus {
+  outline: none;
+}
+
+.createb {
+  background: linear-gradient(to bottom, #00000 5%, #827982 100%);
+  background-color: #2DA94F;
+  box-shadow: 0 5px 20px rgba(45, 169, 79, 0.3);
+  border-radius: 10px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  height: 26px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 8px 25px;
+  text-decoration: none;
+  transition: background-color 1s;
+}
+
+.createb:hover {
+  /* background: linear-gradient(to bottom, #827982 5%, #212021 100%); */
+  background-color: #13BC40;
+}
+
+.createb:active {
+  position: relative;
+  top: 1px;
+}
+
+.pdetailupiid {
+  color: #000000;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 25px;
+  padding-right: 20px;
+  padding-bottom: 2px;
+  padding-left: 20px;
+}
+
+.amountdiv {
+  margin-left: auto;
+  margin-right: auto;
+  width: 240px;
+  height: 50px;
+  background: #ffffff;
+  padding-bottom: 30px;
+}
+
+.pdetailamount {
+  color: #000000;
+  font-family: Poppins;
+  font-size: 17px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 2px;
+}
+
+.amountbox {
+  font-size: 18px;
+  border-width: 1px;
+  border-color: #000000;
+  background-color: #f0f0f0;
+  color: #000000;
+  border-style: none;
+  padding: 0px 13px;
+  font-family: Poppins;
+  font-weight: bold;
+  text-align: center;
+  font-size: 18px;
+  width: 70px;
+  height: 35px;
+  border-radius: 15px;
+}
+
+.inputbox:focus {
+  outline: none;
+}
+
+.smalltext {
+  color: #ffffff;
+  font-family: Poppins;
+  font-size: 10px;
+  font-weight: bold;
+  text-align: center;
+  transform: translate(0px, 0px);
+  padding-top: 20px;
+  padding-right: 10px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+}
+
+.vsmalltext {
+  color: #000000;
+  font-family: Poppins;
+  font-size: 8px;
+  font-weight: bold;
+  text-align: left;
+  transform: translate(35px, -25px);
+}
+
+.gocless {
+  color: #ffffff;
+  font-family: Poppins;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.india {
+  color: #ffffff;
+  font-family: Poppins;
+  font-size: 10px;
+  font-weight: 500;
+  text-align: center;
+  transform: translate(0px, -25px);
+}
+
+.paymentlinktxt {
+  color: #000000;
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 40px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
+
+.copiedtxt {
+  color: #000000;
+  font-family: Poppins;
+  font-size: 10px;
+  font-weight: bold;
+  text-align: center;
+  transform: translate(0px, -5px);
+  padding-top: 5px;
+}
+
+.invalidtext {
+  color: #000000;
+  font-family: Poppins;
+  font-size: 10px;
+  font-weight: bold;
+  text-align: center;
+  transform: translate(0px, -150px);
+}
+/*=================================================================*/
+/*                      Customization by pp
+/*=================================================================*/
+.footerdiv .createnew {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #fff;
+  cursor: pointer;
+}
+
+.footerdiv .createtext {
+  padding: 7px 35px;
+  border-radius: 10px;
+  background-color: #ff9912;
+  transition: background-color 1s;
+}
+
+.footerdiv .createtext:hover {
+  background-color: #ffac3e;
+}
+
+/* Custom Scrollbar - total width */
+body::-webkit-scrollbar {
+    background-color: #fff;
+    width: 16px;
+}
+/* background of the scrollbar except button or resizer */
+body::-webkit-scrollbar-track {
+    background-color: #fff;
+}
+/* scrollbar itself */
+body::-webkit-scrollbar-thumb {
+    background-color: #babac0;
+    border-radius: 16px;
+    border: 4px solid #fff;
+}
+/* set button(top and bottom of the scrollbar) */
+body::-webkit-scrollbar-button {
+    display:none;
+}
+
+@media screen and (min-width: 1024px) {
+  .contentdiv {
+    width: 1024px;
+  }
+  .headingw {
+    font-size: 35px;
+  }
+  .inputdiv {
+    width: 510px;
+    height: 340px;
+  }
+  .pdetailupiid {
+    font-size: 20px;
+  }
+  .pdetailamount {
+    font-size: 20px;
+  }
+  .vsmalltext {
+    font-size: 9px;
+  }
+  .smalltext {
+    font-size: 13px;
+  }
+  .india {
+    font-size: 13px;
+  }
+  .headerdiv {
+    width: 800px;
+  }
+  .slogan {
+    font-size: 15px;
+  }
+  .tpf {
+    font-size: 12px;
+  }
+  .outputdiv {
+    width: 510px;
+    height: 340px;
+  }
+  .paymentlinktxt {
+    font-size: 22px;
+  }
+  .inputbox {
+    width: 400px;
+  }
+}
